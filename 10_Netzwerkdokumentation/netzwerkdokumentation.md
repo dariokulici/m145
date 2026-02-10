@@ -16,3 +16,29 @@ Folgende Punkte sollen in einer Dokumentation vorhanden sein.
 - Verträge der externen Firmen, Dienstleister (Auftragsnehmer), Lieferanten
 - Identifikation aller Beteiligten (Adressen, Erreichbarkeit, Kommunikationskanäle, Anfahrtswege, Funktion in der Netzwerkverwaltung)
 - Handlungsanweisungen für wiederkehrende Aufgaben
+
+<br>
+
+### Zugänglichkeit & Verantwortlichkeit
+
+Die Dokumentation muss für alle, die sie benötigen, zugänglich sein und jeder muss wissen wo sie zu finden ist. Es ist zu definieren, wer für welches Dokument verantwortlich ist. 
+
+<br>
+
+### Aktualität
+
+Bei jeder Anpassung am Netzwerk muss die Dokumentation nachgefasst werden. Sie muss verständlich und logisch aufgebaut sein (mit Bezeichnungen, Kürzel und Nummerierung). 
+
+<br>
+
+### Begriffserklärung
+
+#### Netzwerkplan
+Der Netzwerkplan beschreibt die **Architektur und Struktur** eines Netzwerks. Dies umfasst die **physische sowie logischen Komponenten** und deren Beziehungen zueinander. Zu einem Netzwerkplan gehören verschiedene Elemente wie beispielsweise Netzwerktopologien, IP-Adressen Schemas, Sicherheitsrichtlinien und Dienst-Beschreibungen. 
+
+#### Netzwerkschema
+Das Netzwerkschema ist eine grafische Darstellung der **physischen Topologie** eines Netzwerks. Es zeigt die **Anordnung und Verbindung der Netzwerkgeräte**. Dadurch bietet es eine visuelle Übersicht der physischen Struktur des Netzwerks einschliesslich der Platzierung von Switches, Routern, Servern und anderen Geräten. 
+
+#### Logischer Netzlayout
+Beim logischen Netzlayout wird eine abstrakte Ebene, die unabhängig von der physischen Implementierung ist, dokumentiert. Sie umfasst die logische Anordnung der Netzwerkkomponenten wie beispielsweise Subnetze, VLANs und Routing-Protokolle. Dies dient zur Optimierung der Effizienz und Sicherheit des Netzes. 
+
