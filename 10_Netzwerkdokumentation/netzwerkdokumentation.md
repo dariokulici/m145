@@ -50,3 +50,7 @@ Die physische Netzstruktur bezieht sich hauptsächlich auf die Hardwarekomponent
 
 #### Verkabelungsplan
 Auf diesem Dokument sind spezifische Details der physischen Verkabelungen beschrieben. Beispielsweise die Art der verwendeten Kabel (z.B Ethernet, Glasfaser), die Länge der Kabel und die Anordnung der Verkabelung in Gebäuden oder Rechenzentren. 
+
+<br>
+
+Weiter zu [Netzwerkdokumentation interpretieren](netzdoku-interpretieren.md)
