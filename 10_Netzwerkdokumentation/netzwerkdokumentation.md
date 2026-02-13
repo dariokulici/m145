@@ -42,3 +42,11 @@ Das Netzwerkschema ist eine grafische Darstellung der **physischen Topologie** e
 #### Logischer Netzlayout
 Beim logischen Netzlayout wird eine abstrakte Ebene, die unabhängig von der physischen Implementierung ist, dokumentiert. Sie umfasst die logische Anordnung der Netzwerkkomponenten wie beispielsweise Subnetze, VLANs und Routing-Protokolle. Dies dient zur Optimierung der Effizienz und Sicherheit des Netzes. 
 
+#### Netzwerkdiagramm
+Der Fokus beim Netzwerkdiagramm ist die grafische Darstellung eines Netzwerks. Sodass die Verbindungen zwischen den Netzwerkgeräten und Komponenten visuell ersichtlich ist. Typische enthaltene Informationen sind die physische Topologie, IP-Adresse Schemas, Dienstbereitstellung und Sicherheitsrichtlinien. 
+
+#### Physische Netzstruktur
+Die physische Netzstruktur bezieht sich hauptsächlich auf die Hardwarekomponenten und Verbindungen. Switches, Router, Server, Endgeräte und die physische Verkabelung gehören zum Plan. 
+
+#### Verkabelungsplan
+Auf diesem Dokument sind spezifische Details der physischen Verkabelungen beschrieben. Beispielsweise die Art der verwendeten Kabel (z.B Ethernet, Glasfaser), die Länge der Kabel und die Anordnung der Verkabelung in Gebäuden oder Rechenzentren. 
