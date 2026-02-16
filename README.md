@@ -8,7 +8,8 @@
 
 <br>
 
-### 📄 Netzwerkdokumentation
+### 📄 Netzwerk-Dokumentation
 
-- [Netzwerkdokumentation](10_Netzwerkdokumentation/netzwerkdokumentation.md) 
+- [Netzwerk-Dokumentation Theorie](10_Netzwerkdokumentation/netzwerkdokumentation.md) 
+- [Übung: Netzwerk-Dokumentation interpretieren](10_Netzwerkdokumentation/netzdoku-interpretieren.md) 
 
