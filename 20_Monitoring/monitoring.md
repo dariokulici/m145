@@ -7,4 +7,5 @@ Die grundlegenden Komponenten der Netzwerküberwachung sind:
 - DNS
 - DHCP
 
-Netzwerküberwachung deckt drei von fünf Ziele des Netzwerkmanagements ab. 
+Netzwerküberwachung deckt drei von fünf Ziele des Netzwerkmanagements ab: **Leistungsüberwachung, Fehlerüberwachung und Kontoüberwachung**. 
+
