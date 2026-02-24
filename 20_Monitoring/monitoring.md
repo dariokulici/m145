@@ -38,4 +38,4 @@ Syslog ist ein Protokoll, welches Ereignisbenachrichtigungen übers Netzwerk zu 
 Wenn bestimmte Funktionen nicht von einem NMS angeboten werden, können Skripte verwendet werden, um das neue Feature zu schaffen. Bash, Perl oder Python Skripte sind gängige Programmiersprachen um solche Skripte zu erstellen. 
 
 ### FCAPS
-FCAPS sind 5 verschiedene Kategorien des Netzwerkmanagements 
+FCAPS sind 5 verschiedene Kategorien des Netzwerkmanagements
