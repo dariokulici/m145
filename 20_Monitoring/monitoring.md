@@ -34,3 +34,8 @@ Das Simple Network Management Protocol ist zum Austausch von Informationen zwisc
 ### Syslog
 Syslog ist ein Protokoll, welches Ereignisbenachrichtigungen übers Netzwerk zu senden. Viele Geräte, z.B Druckern, Router oder Firewall, unterstützen Syslog. 
 
+### Skripte
+Wenn bestimmte Funktionen nicht von einem NMS angeboten werden, können Skripte verwendet werden, um das neue Feature zu schaffen. Bash, Perl oder Python Skripte sind gängige Programmiersprachen um solche Skripte zu erstellen. 
+
+### FCAPS
+FCAPS sind 5 verschiedene Kategorien des Netzwerkmanagements 
