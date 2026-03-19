@@ -33,6 +33,6 @@ Der Befehl aktiviert Preemption ohne Priorität. Das heisst ein anderer Router s
 9. Was ist der konzeptionelle Unterschied zwischen "Router-on-a-Stick" und der Nutzung von SVIs (Switched Virtual Interfaces)?<br>
 Bei Router on a Stick wird Inter VLAN Routing auf dem Router gemacht während bei SVIs dies auf einem Layer 3 Switch passiert. 
 
-10. Welcher Befehl ist auf einem Router-Subinterface zwingend notwendig, damit es die VLAN-Tags eines bestimmten VLANs versteht?
+10. Welcher Befehl ist auf einem Router-Subinterface zwingend notwendig, damit es die VLAN-Tags eines bestimmten VLANs versteht?<br>
 `encapsulation dot1Q VLAN_ID` muss ausgeführt werden, damit der Router weiss welches VLAN Tag er beim senden und empfangen hinzufügen und entfernen muss. 
 
