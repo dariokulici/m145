@@ -6,31 +6,31 @@
 
 ### Kontrollfragen
 
-1. Welches grundlegende Problem verhindert das Spanning Tree Protocol (STP) in einem Layer-2-Netzwerk?
+1. Welches grundlegende Problem verhindert das Spanning Tree Protocol (STP) in einem Layer-2-Netzwerk?<br>
 STP verhindert grundsätzlich Endlosschlaufen, die entstehen würden wenn man Switches, z.B in einem Dreieck, zusammensteckt. 
 
-2. Aus welchen zwei Werten setzt sich die Bridge ID zusammen, die für die Wahl der Root Bridge entscheidend ist?
+2. Aus welchen zwei Werten setzt sich die Bridge ID zusammen, die für die Wahl der Root Bridge entscheidend ist?<br>
 Die Bridge ID besteht aus der gesetzten Bridge ID und die Mac-Adresse des Switches. 
 
-3. Warum dauert die Konvergenz bei klassischem 802.1D STP standardmäßig bis zu 30-50 Sekunden?
+3. Warum dauert die Konvergenz bei klassischem 802.1D STP standardmäßig bis zu 30-50 Sekunden?<br>
 STP (802.1D) ist das klassische STP und die Konvergenz dauert ca. 30-50 Sekunden, weil starre Timer definiert sind, um den STP Tree zu berechnen. Beim neu berechnen des STP Baumes wird der Switch auf Listening gestellt, was genau 15 Sekunden dauert und danach auf Learning, welches auch 15 Sekunden dauert. Zusätzlich kommt das max Age dazu, welches 20 Sekunden dauern kann wenn, z.B ein anderer Switch einen kurzen Delay hat. 
 
-4. Wofür wird der Befehl `spanning-tree portfast` genutzt und an welchen Ports sollte man ihn konfigurieren?
+4. Wofür wird der Befehl `spanning-tree portfast` genutzt und an welchen Ports sollte man ihn konfigurieren?<br>
 Der portfast Befehl kann auf Ports angewendet werden, die dann sofort in den Forwarding-Zustand wechseln, ohne die Listening/Learning Phase durchzumachen. Ports, an denen Clients angesteckt sind können niemals Loops verursachen, das heisst diese Ports sollten direkt in den Forwarding-Zustand wechseln. 
 
-5. Warum reicht STP für die Netzwerkausfallsicherheit nicht aus, sodass wir Protokolle wie HSRP oder VRRP benötigen?
+5. Warum reicht STP für die Netzwerkausfallsicherheit nicht aus, sodass wir Protokolle wie HSRP oder VRRP benötigen?<br>
 STP ermöglicht Layer 2 Ausfallsicherheit. Sobald der Router (Single Point of Failure) ausfällt, ist das Netzwerk lahm. HSRP und VRRP sind FHRP (First Hop Redundancy Protocols), um Router vor Ausfällen zu sichern. 
 
-6. Was ist der Unterschied zwischen der physischen IP eines Routers und der virtuellen IP (VIP) bei HSRP?
+6. Was ist der Unterschied zwischen der physischen IP eines Routers und der virtuellen IP (VIP) bei HSRP?<br>
 Die physische IP eines Routers kann es nur einmal geben während virtuelle IPs auf mehreren Routern existieren können. 
 
-7. Nenne zwei technische Unterschiede zwischen VRRP und HSRP (z.B. Multicast-Adresse, Terminologie).
+7. Nenne zwei technische Unterschiede zwischen VRRP und HSRP (z.B. Multicast-Adresse, Terminologie).<br>
 Preemption ist bei HRRP standardmässig ausgeschaltet und die Multicast Adressen sind 224.0.0.2 (HSRP) und 224.0.0.18 (VRRPv2/3). 
 
-8. Welchen Zweck erfüllt der Befehl `standby 10 preempt`?
+8. Welchen Zweck erfüllt der Befehl `standby 10 preempt`?<br>
 Der Befehl aktiviert Preemption ohne Priorität. Das heisst ein anderer Router sollte active sein und dieser würde bei Ausfall des anderen übernehmen. 
 
-9. Was ist der konzeptionelle Unterschied zwischen "Router-on-a-Stick" und der Nutzung von SVIs (Switched Virtual Interfaces)?
+9. Was ist der konzeptionelle Unterschied zwischen "Router-on-a-Stick" und der Nutzung von SVIs (Switched Virtual Interfaces)?<br>
 Bei Router on a Stick wird Inter VLAN Routing auf dem Router gemacht während bei SVIs dies auf einem Layer 3 Switch passiert. 
 
 10. Welcher Befehl ist auf einem Router-Subinterface zwingend notwendig, damit es die VLAN-Tags eines bestimmten VLANs versteht?
