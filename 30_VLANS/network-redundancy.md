@@ -28,7 +28,7 @@ Die physische IP eines Routers kann es nur einmal geben während virtuelle IPs a
 Preemption ist bei HRRP standardmässig ausgeschaltet und die Multicast Adressen sind 224.0.0.2 (HSRP) und 224.0.0.18 (VRRPv2/3). 
 
 8. Welchen Zweck erfüllt der Befehl `standby 10 preempt`?<br>
-Der Befehl aktiviert Preemption ohne Priorität. Das heisst ein anderer Router sollte active sein und dieser würde bei Ausfall des anderen übernehmen. 
+Das heisst ein anderer Router sollte active sein und dieser würde bei Ausfall des anderen übernehmen. 
 
 9. Was ist der konzeptionelle Unterschied zwischen "Router-on-a-Stick" und der Nutzung von SVIs (Switched Virtual Interfaces)?<br>
 Bei Router on a Stick wird Inter VLAN Routing auf dem Router gemacht während bei SVIs dies auf einem Layer 3 Switch passiert. 
